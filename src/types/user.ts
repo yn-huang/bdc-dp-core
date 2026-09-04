@@ -1,10 +1,16 @@
 interface UserProfile {
+  email: string;
   firstName: string;
   lastName: string;
-  organization: string;
+  phone: string | null;
+  addressStreet: string;
+  addressCity: string;
+  addressState: string;
+  postalCode: string;
+  country: string;
 }
 
 export interface User {
-  id: string;
+  uuid: string;
   profile: UserProfile;
 }

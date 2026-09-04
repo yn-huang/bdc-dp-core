@@ -1,10 +1,16 @@
 import type { User } from "../types/user";
 
 export const mockUser: User = {
-  id: "test-user-001",
+  uuid: "test-user-001",
   profile: {
-    firstName: "Test",
-    lastName: "Researcher",
-    organization: "Test Organization",
+    email: "xxx@xxx.com",
+    firstName: "Jane",
+    lastName: "Doe",
+    phone: "000-000-0000",
+    addressStreet: "0000 xx Street",
+    addressCity: "City",
+    addressState: "State",
+    postalCode: "00000",
+    country: "US",
   },
 };
